@@ -256,38 +256,6 @@ body.weather-rainy header {
 }
 
 
-/* トップ画像 */
-#top {
-    padding: 110px 20px 50px;
-    text-align: center;
-}
-
-#top img {
-    display: block;
-    width: 65%;
-    max-width: 550px;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 12px;
-}
-
-@media screen and (max-width: 600px) {
-    #top img {
-        width: 90%;
-    }
-}
-
-
-/* トップ画像を横に大きくする */
-#top img {
-    display: block;
-    width: 100%;
-    max-width: 750px;
-    height: auto;
-    margin: 0 auto;
-}
-
-
 /* ヘッダーを淡いブルーに変更 */
 header,
 body.weather-sunny header,
@@ -307,19 +275,6 @@ header nav a {
 header a:hover,
 header nav a:hover {
     color: #b9869b;
-}
-
-
-/* トップ画像の縦幅を狭くする */
-#top img {
-    display: block;
-    width: 85%;
-    max-width: 750px;
-    height: 400px;
-    object-fit: cover;
-    object-position: center;
-    margin: 0 auto;
-    border-radius: 12px;
 }
 
 
@@ -408,15 +363,6 @@ header nav a:hover {
     max-width: none;
     margin: 0;
     padding: 90px 0 0;
-}
-
-#top img {
-    display: block;
-    width: 100%;
-    max-width: none;
-    height: auto;
-    border-radius: 0;
-    margin: 0;
 }
 
 
